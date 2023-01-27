@@ -1,6 +1,6 @@
 # <center> Clinical Decision Transformer </center>  
 
-**<center> Code:** soon be available </center>
+<center> <b>Code:</b> soon be available </center>
 
 ## TLDR;
 We propose a clinical recommender system that generates a sequence of medications to reach a desired clinical state given as a goal prompt.
