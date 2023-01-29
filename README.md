@@ -1,6 +1,5 @@
 <center><font size="10"><b>Clinical Decision Transformer</b> </font></center>
 <center><font size="5">: Intended Treatment Recommendation through Goal Prompting</font></center>
-<br/>
 <center> <b>Code:</b> soon be available </center>
 
 ## TLDR;
