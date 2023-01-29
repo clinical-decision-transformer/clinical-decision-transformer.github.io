@@ -4,7 +4,7 @@
 <center> <b>Code:</b> soon be available </center>
 
 ## TLDR;
-**We propose a clinical recommender system that generates a sequence of medications to reach a desired clinical state given as a goal prompt.**
+**We propose a clinical recommender system that generates a sequence of medications to reach a desired state given as a goal prompt.**
 ![cdt_overview](https://user-images.githubusercontent.com/119850923/215345322-daae3793-c0c8-46da-9216-00f1720981e4.gif)
 
 ## Abstract
