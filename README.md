@@ -4,6 +4,9 @@
 <center> <b>Code:</b> soon be available </center>
 
 ![녹화_2023_01_30_01_28_50_244](https://user-images.githubusercontent.com/119850923/215343446-a76f7002-c8ef-4fb8-afef-2fea5ff5e1f3.gif)
+![녹화_2023_01_30_01_28_50_244 (2)](https://user-images.githubusercontent.com/119850923/215343623-67425f63-3c49-4dba-ac03-5a2da3045721.gif)
+![녹화_2023_01_30_01_28_50_244 (3)](https://user-images.githubusercontent.com/119850923/215343647-24562688-d5e0-4445-b826-7cddf1ea3fba.gif)
+
 
 ## TLDR;
 We propose a clinical recommender system that generates a sequence of medications to reach a desired clinical state given as a goal prompt.
