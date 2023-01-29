@@ -3,7 +3,7 @@
 <br/>
 <center> <b>Code:</b> soon be available </center>
 
-  
+![녹화_2023_01_30_01_28_50_244](https://user-images.githubusercontent.com/119850923/215343446-a76f7002-c8ef-4fb8-afef-2fea5ff5e1f3.gif)
 
 ## TLDR;
 We propose a clinical recommender system that generates a sequence of medications to reach a desired clinical state given as a goal prompt.
