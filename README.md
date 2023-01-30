@@ -4,11 +4,12 @@
 <center> <u><b>Code:</b></u> soon be available </center>
 
 ## Summary
-- We propose the **Clinical Decision Transformer**, a clinical recommender system that generates a sequence of medications to reach a desired state given as a goal prompt.
+- **We propose the __Clinical Decision Transformer__, a clinical recommender system that generates a sequence of medications to reach a desired state given as a goal prompt.**
 ![cdt_overview](https://user-images.githubusercontent.com/119850923/215435040-0a80bbac-671f-42c2-8e22-2904d1311fcc.gif)
   
 
--  Recommended medications by the Clinical Decision Transformer shift patients' clinical states in the intended directions.
+-  **Recommended medications by the Clinical Decision Transformer shift patients' clinical states in the intended directions.**  
+
 ![site_prompting](https://user-images.githubusercontent.com/119850923/215435046-0135fa9e-7929-42dc-9290-578419afde63.png)
   
 ## Abstract
