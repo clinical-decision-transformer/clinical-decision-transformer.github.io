@@ -4,7 +4,7 @@
 <center> <u><b>Code:</b></u> soon be available </center>
 
 ## Summary
-- **We propose the __Clinical Decision Transformer__, a clinical recommender system that generates a sequence of medications to reach a desired state given as a goal prompt.**
+- **We propose the <u>Clinical Decision Transformer</u>, a clinical recommender system that generates a sequence of medications to reach a desired state given as a goal prompt.**
 ![cdt_overview](https://user-images.githubusercontent.com/119850923/215435040-0a80bbac-671f-42c2-8e22-2904d1311fcc.gif)
   
 
