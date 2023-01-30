@@ -7,6 +7,7 @@
 
 <span style="color: #2d6885"><font size="5"><b>Summary</b></font></span>
 - We propose Clinical Decision Transformer, a clinical recommender system that generates a sequence of medications to reach a desired state given as a goal prompt.
+
 ![cdt_overview](https://user-images.githubusercontent.com/119850923/215435040-0a80bbac-671f-42c2-8e22-2904d1311fcc.gif)
 
 <br>
@@ -21,12 +22,14 @@
 
 <span style="color: #2d6885"><font size="5"><b>Attention Pattern</b></font></span>
 - attention pattern
+
 ![attn_pattern](https://user-images.githubusercontent.com/119850923/215553247-4daf4c72-14bd-40a7-a0e1-f2a7c0322d39.png)
 
 <br><br>
 
 <span style="color: #2d6885"><font size="5"><b>Contextual Embedding</b></font></span>
 - contextual embedding
+
 ![contextual_embedding](https://user-images.githubusercontent.com/119850923/215551150-1a209b3b-496d-46b4-9ecd-c9e3f6ec12cd.png)
 
 <br><br>
