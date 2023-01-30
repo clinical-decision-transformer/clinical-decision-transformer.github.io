@@ -5,7 +5,7 @@
 
 ## TLDR;
 **We propose a clinical recommender system that generates a sequence of medications to reach a desired state given as a goal prompt.**
-![cdt_overview](https://user-images.githubusercontent.com/119850923/215405679-14ff1023-5c6c-4e52-be19-799abf2cf0cd.gif)
+![cdt_overview](https://user-images.githubusercontent.com/119850923/215414138-75971515-351e-4d60-898d-69fc8dab0ef9.gif)
 
 
 ## Abstract
