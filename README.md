@@ -1,13 +1,15 @@
 <center><font size="10"><b>Clinical Decision Transformer</b> </font></center>
 <center><font size="5">: Intended Treatment Recommendation through Goal Prompting</font></center>
-
+<br>
 <center> <u><b>Code:</b></u> soon be available </center>
+
+<br><br>
 
 <span style="color: #2d6885"><font size="5">Summary</font></span>
 - We propose Clinical Decision Transformer, a clinical recommender system that generates a sequence of medications to reach a desired state given as a goal prompt.
 ![cdt_overview](https://user-images.githubusercontent.com/119850923/215435040-0a80bbac-671f-42c2-8e22-2904d1311fcc.gif)
 
-</br></br>
+<br><br>
 
 - We extracted a diabetes dataset from an EHR system and used it to train two models; the proposed Clinical Decision Transformer and Counterfactual Recurrent Network [1] as a recommendation evaluation model.
 - We find that recommended medications by the Clinical Decision Transformer shift patients' clinical states (e.g. hemoglobin A1c) in the intended directions (e.g. the normal range of hemoglobin A1c: 4--5.6% [2]) compared to those of factual prescriptions and behavior cloning.
@@ -15,16 +17,15 @@
 ![site_prompting](https://user-images.githubusercontent.com/119850923/215435046-0135fa9e-7929-42dc-9290-578419afde63.png)  
 
 
-</br></br>
+<br><br>
 
 <span style="color: #2d6885"><font size="5">Attention Pattern</font></span>
 
-</br>
+<br><br>
 
 <span style="color: #2d6885"><font size="5">Contextual Embedding</font></span>
 
-</br>
-
+<br><br>
 
 <span style="color: #2d6885"><font size="5">Abstract</font></span>
 
