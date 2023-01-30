@@ -21,7 +21,7 @@
 
 <span style="color: #2d6885"><font size="5"><b>Attention Pattern</b></font></span>
 - attention pattern
-![attn_pattern](https://user-images.githubusercontent.com/119850923/215552171-e31da678-42c2-4d53-8eeb-1384fc7919a9.png)
+![attn_pattern](https://user-images.githubusercontent.com/119850923/215553247-4daf4c72-14bd-40a7-a0e1-f2a7c0322d39.png)
 
 <br><br>
 
