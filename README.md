@@ -30,7 +30,7 @@
 <span style="color: #2d6885"><font size="5"><b>Contextual Embedding</b></font></span>
 - contextual embedding
 
-![contextual_embedding](https://user-images.githubusercontent.com/119850923/215551150-1a209b3b-496d-46b4-9ecd-c9e3f6ec12cd.png)
+![contextual_embedding](https://user-images.githubusercontent.com/119850923/215558959-79e21b1b-89f3-4792-b4c9-f43ad2ac4884.png)
 
 <br><br>
 
