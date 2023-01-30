@@ -39,4 +39,4 @@ With recent achievements in tasks requiring context awareness, foundation models
 [Estimating counterfactual treatment outcomes over time
 through adversarially balanced representations](https://arxiv.org/abs/2002.04083). arXiv
 preprint arXiv:2002.04083, 2020  
-[2] American Diabetes Association [Understanding A1c](https://diabetes.org/diabetes/a1c). 
+[2] American Diabetes Association. [Understanding A1c](https://diabetes.org/diabetes/a1c). 
