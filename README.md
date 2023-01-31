@@ -6,13 +6,13 @@
 <br>
 
 <span style="color: #2d6885"><font size="5"><b>Summary</b></font></span>
-- We propose Clinical Decision Transformer, a clinical recommender system that generates a sequence of medications to reach a desired state given as a goal prompt.
+- We propose Clinical Decision Transformer, a clinical recommender system that generates a sequence of medications to reach a desired clinical state given as a goal prompt.
 
 ![cdt_overview](https://user-images.githubusercontent.com/119850923/215435040-0a80bbac-671f-42c2-8e22-2904d1311fcc.gif)
 
 <br>
 
-- We extracted a diabetes dataset from an EHR system and used it to train two models; the proposed Clinical Decision Transformer and Counterfactual Recurrent Network [1] as an evaluation model for evaluating recommendation effects.
+- We extracted a diabetes dataset from an electronic health record elec(EHR) system and used it to train two models; the proposed Clinical Decision Transformer and Counterfactual Recurrent Network [1] as an evaluation model for estimating recommendation effects.
 - We find that recommended medications by the Clinical Decision Transformer shift patients' clinical states (e.g. hemoglobin A1c) in the intended directions (e.g. the normal range of hemoglobin A1c: 4--5.6% [2]) compared to those of factual prescriptions and behavior cloning.
 
 ![site_prompting](https://user-images.githubusercontent.com/119850923/215435046-0135fa9e-7929-42dc-9290-578419afde63.png)  
@@ -20,17 +20,19 @@
 
 <br><br>
 
-<span style="color: #2d6885"><font size="5"><b>Attention Pattern</b></font></span>
-- attention pattern
+<span style="color: #2d6885"><font size="5"><b>Contextual Embedding</b></font></span>
+- It is necessary to contextualize inter-admission and intra-admission information to fully utilize large-scale EHR data characterized by heterogeneity and high missing rates (for laboratory test columns in our dataset; mean 44.39%, median 22.37%).
+- In a t-SNE analysis, we observe that the output embeddings for each admission point are clustered with respect to prescriptions, while the input admissions are entangled before contextualized.
+- In this analysis, cold start corresponds to the case where the input admission length is one,
 
-![attn_pattern](https://user-images.githubusercontent.com/119850923/215553247-4daf4c72-14bd-40a7-a0e1-f2a7c0322d39.png)
+![contextual_embedding](https://user-images.githubusercontent.com/119850923/215558959-79e21b1b-89f3-4792-b4c9-f43ad2ac4884.png)
 
 <br><br>
 
-<span style="color: #2d6885"><font size="5"><b>Contextual Embedding</b></font></span>
-- contextual embedding
+<span style="color: #2d6885"><font size="5"><b>Attention Pattern</b></font></span>
+- We visualized representative cases of attention patterns to closely analyze how the Clinical Decision Transformer recommended medications and contextually embedded sequential EHR data.
 
-![contextual_embedding](https://user-images.githubusercontent.com/119850923/215558959-79e21b1b-89f3-4792-b4c9-f43ad2ac4884.png)
+![attn_pattern](https://user-images.githubusercontent.com/119850923/215553247-4daf4c72-14bd-40a7-a0e1-f2a7c0322d39.png)
 
 <br><br>
 
