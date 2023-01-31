@@ -50,5 +50,5 @@ through adversarially balanced representations](https://arxiv.org/abs/2002.04083
 preprint arXiv:2002.04083, 2020  
 [2] American Diabetes Association. [Understanding A1c](https://diabetes.org/diabetes/a1c).  
 
-\* The data extraction study from the EHR system was approved by an official review committee.
+\* The data extraction process from the EHR system was approved by an official review committee.
 
