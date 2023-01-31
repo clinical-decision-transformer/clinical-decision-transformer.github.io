@@ -10,13 +10,10 @@
 
 ![cdt_overview](https://user-images.githubusercontent.com/119850923/215435040-0a80bbac-671f-42c2-8e22-2904d1311fcc.gif)
 
-
-
 - We extracted a diabetes dataset from an electronic health record elec(EHR) system and used it to train two models; the proposed Clinical Decision Transformer and Counterfactual Recurrent Network [1] as an evaluation model for estimating recommendation effects.
 - We find that recommended medications by the Clinical Decision Transformer shift patients' clinical states (e.g. hemoglobin A1c) in the intended directions (e.g. the normal range of hemoglobin A1c: 4--5.6% [2]) compared to those of factual prescriptions and behavior cloning.
 
-![site_prompting](https://user-images.githubusercontent.com/119850923/215435046-0135fa9e-7929-42dc-9290-578419afde63.png)  
-
+![goal_prompting](https://user-images.githubusercontent.com/119850923/215705296-4e97bacc-8ad5-4098-b1ee-13abc2795b3f.png)
 
 <br><br>
 
