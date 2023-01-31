@@ -23,14 +23,15 @@
 <span style="color: #2d6885"><font size="5"><b>Contextual Embedding</b></font></span>
 - It is necessary to contextualize inter-admission and intra-admission information to fully utilize large-scale EHR data characterized by heterogeneity and high missing rates (for laboratory test columns in our dataset; mean 44.39%, median 22.37%).
 - In a t-SNE analysis, we observe that the output embeddings for each admission point are clustered with respect to prescriptions, while the input admissions are entangled before contextualized.
-- In this analysis, cold start corresponds to the case where the input admission length is one,
+- In this analysis, the cold start corresponds to the case where the input admission length is one without previous admission history.
 
 ![contextual_embedding](https://user-images.githubusercontent.com/119850923/215558959-79e21b1b-89f3-4792-b4c9-f43ad2ac4884.png)
 
 <br><br>
 
 <span style="color: #2d6885"><font size="5"><b>Attention Pattern</b></font></span>
-- We visualized representative cases of attention patterns to closely analyze how the Clinical Decision Transformer recommended medications and contextually embedded sequential EHR data.
+- We visualized representative cases of attention patterns to analyze how the Clinical Decision Transformer recommends medications and contextually embeds sequential EHR data.
+- We find that the model tends to utilize recent inter-admission information to contextualize the clinical states of the current admission, while when previous information was insufficient, intra-admission contextualization became more active.
 
 ![attn_pattern](https://user-images.githubusercontent.com/119850923/215553247-4daf4c72-14bd-40a7-a0e1-f2a7c0322d39.png)
 
@@ -40,6 +41,8 @@
 
 With recent achievements in tasks requiring context awareness, foundation models have been adopted to treat large-scale data from electronic health record (EHR) systems. However, previous clinical recommender systems based on foundation models have a limited purpose of imitating clinicians’ behavior and do not directly consider a problem of missing values. In this paper, we propose a Clinical Decision Transformer (CDT), a generative foundation model that recommends intended medications conditioned on a desired goal prompt. For this, we conducted goal-conditioned sequencing, which generated a subsequence of treatment history with prepended future goal state, and trained the CDT to model sequential medications required to reach that goal state. For contextual embedding over intra-admission and inter-admissions, we adopted a GPT-based architecture with an admission-wise attention mask and column embedding. In an experiment, we extracted a diabetes dataset from an EHR system, which contained treatment histories of 4788 patients. We observed that the CDT achieved the intended treatment effect according to goal prompt ranges (e.g., NormalA1c, LowerA1c, and HigherA1c), contrary to the case with  behavior cloning. To the best of our knowledge, this is the first study to explore clinical recommendations from the perspective of goal prompting.
 
+**Keywords:** Clinical Recommender System, Electronic Health Records, Foundation Model, Causal Inference
+
 <br><br>
 
 <span style="color: #2d6885"><font size="5"><b>References</b></font></span>
@@ -48,4 +51,7 @@ With recent achievements in tasks requiring context awareness, foundation models
 [Estimating counterfactual treatment outcomes over time
 through adversarially balanced representations](https://arxiv.org/abs/2002.04083). arXiv
 preprint arXiv:2002.04083, 2020  
-[2] American Diabetes Association. [Understanding A1c](https://diabetes.org/diabetes/a1c). 
+[2] American Diabetes Association. [Understanding A1c](https://diabetes.org/diabetes/a1c).  
+
+\* The data extraction study from the EHR system was approved by an official review committee.
+
