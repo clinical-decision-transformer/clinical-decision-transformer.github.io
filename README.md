@@ -32,7 +32,7 @@
 - <div style="text-align: justify">We visualized representative cases of attention patterns to analyze how the Clinical Decision Transformer recommends medications and contextually embeds sequential EHR data.</div>
 - <div style="text-align: justify">We find that the model tends to utilize recent inter-admission information to contextualize the clinical states of the current admission, while when previous information is insufficient, intra-admission contextualization becomes more active.</div>
 
-![attn_pattern](https://user-images.githubusercontent.com/119850923/215553247-4daf4c72-14bd-40a7-a0e1-f2a7c0322d39.png)
+![attn_pattern](https://user-images.githubusercontent.com/119850923/215715990-3807e721-ce57-4029-89b1-039d578d6935.png)
 
 <br><br>
 
