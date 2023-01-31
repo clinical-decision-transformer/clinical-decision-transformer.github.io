@@ -23,7 +23,7 @@
 <span style="color: #2d6885"><font size="5"><b>Contextual Embedding</b></font></span>
 - It is necessary to contextualize inter-admission and intra-admission information to fully utilize large-scale EHR data characterized by heterogeneity and high missing rates (for laboratory test columns in our dataset; mean 44.39%, median 22.37%).
 - In a t-SNE analysis, we observe that the output embeddings for each admission point are clustered with respect to prescriptions, while the input admissions are entangled before contextualized.
-- In this analysis, the cold start corresponds to the case where the input admission length is one without previous admission history.
+- In this study, the cold start corresponds to the case where the input admission length is one without previous admission history.
 
 ![contextual_embedding](https://user-images.githubusercontent.com/119850923/215558959-79e21b1b-89f3-4792-b4c9-f43ad2ac4884.png)
 
