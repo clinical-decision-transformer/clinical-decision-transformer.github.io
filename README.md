@@ -8,7 +8,7 @@
 <span style="color: #2d6885"><font size="5"><b>Summary</b></font></span>
 - <div style="text-align: justify">We propose Clinical Decision Transformer, a clinical recommender system that generates a sequence of medications to reach a desired clinical state given as a goal prompt.</div>
 
-![cdt_greedy_inference_overview](https://user-images.githubusercontent.com/119850923/215729979-b9c19e6e-c659-462b-8533-48e8554ed004.gif)
+![cdt_greedy_inference_overview](https://user-images.githubusercontent.com/119850923/215731021-7d57e789-e6ed-46e2-ba72-debb269f3f4d.gif)
 
 
 <br>
