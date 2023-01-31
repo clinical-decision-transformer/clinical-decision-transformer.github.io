@@ -10,7 +10,7 @@
 
 ![cdt_overview](https://user-images.githubusercontent.com/119850923/215435040-0a80bbac-671f-42c2-8e22-2904d1311fcc.gif)
 
-<br>
+
 
 - We extracted a diabetes dataset from an electronic health record elec(EHR) system and used it to train two models; the proposed Clinical Decision Transformer and Counterfactual Recurrent Network [1] as an evaluation model for estimating recommendation effects.
 - We find that recommended medications by the Clinical Decision Transformer shift patients' clinical states (e.g. hemoglobin A1c) in the intended directions (e.g. the normal range of hemoglobin A1c: 4--5.6% [2]) compared to those of factual prescriptions and behavior cloning.
@@ -31,7 +31,7 @@
 
 <span style="color: #2d6885"><font size="5"><b>Attention Pattern</b></font></span>
 - We visualized representative cases of attention patterns to analyze how the Clinical Decision Transformer recommends medications and contextually embeds sequential EHR data.
-- We find that the model tends to utilize recent inter-admission information to contextualize the clinical states of the current admission, while when previous information was insufficient, intra-admission contextualization became more active.
+- We find that the model tends to utilize recent inter-admission information to contextualize the clinical states of the current admission, while when previous information is insufficient, intra-admission contextualization becomes more active.
 
 ![attn_pattern](https://user-images.githubusercontent.com/119850923/215553247-4daf4c72-14bd-40a7-a0e1-f2a7c0322d39.png)
 
