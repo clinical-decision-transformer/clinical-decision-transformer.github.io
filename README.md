@@ -6,14 +6,15 @@
 <br>
 
 <span style="color: #2d6885"><font size="5"><b>Summary</b></font></span>
-- <div style="text-align: justify">We propose Clinical Decision Transformer, a clinical recommender system that generates a sequence of medications to reach a desired range of clinical states given as goal prompts.</div>
+- <div style="text-align: justify">We propose Clinical Decision Transformer, a recommender system that generates a sequence of medications to reach a desired range of clinical states given as goal prompts.</div>
 
 ![cdt_greedy_inference_overview](https://user-images.githubusercontent.com/119850923/215732828-d03b841f-209c-4e8f-8725-f9303b108f65.gif)
 
 <br>
 
 - <div style="text-align: justify">We extracted a diabetes dataset from an electronic health record (EHR) system and used it to train two models; the proposed Clinical Decision Transformer and Counterfactual Recurrent Network [1] as an evaluation model for estimating recommendation effects.</div>
-- <div style="text-align: justify">We find that recommended medications by the Clinical Decision Transformer shift patients' clinical states (e.g. hemoglobin A1c) in the intended directions (e.g. the normal range of hemoglobin A1c: 4&ndash;5.6% [2]) compared to those of factual prescriptions and behavior cloning.</div>
+- <div style="text-align: justify">The evaluation model estimates a counterfactual clinical state of the very next admission, given previous admission history and currently recommended medications by the Clinical Decision Transformer.</div>
+- <div style="text-align: justify">We find that recommended medications by the Clinical Decision Transformer shift patients' clinical states (e.g. hemoglobin A1c) in the intended directions (e.g. the normal range of hemoglobin A1c: 4&ndash;5.6% [2]) compared to those by factual prescriptions and behavior cloning.</div>
 
 ![goal_prompting](https://user-images.githubusercontent.com/119850923/215706750-0ebdd228-bd20-4af6-ae9e-f67625780f96.png)
 
