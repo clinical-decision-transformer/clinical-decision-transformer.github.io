@@ -16,7 +16,7 @@
 - <div style="text-align: justify">The evaluation model estimates a counterfactual clinical state of the very next admission, given previous admission history and currently recommended medications by the Clinical Decision Transformer.</div>
 - <div style="text-align: justify">We find that recommended medications by the Clinical Decision Transformer shift patients' clinical states (e.g. hemoglobin A1c) in the intended directions (e.g. the normal range of hemoglobin A1c: 4&ndash;5.6% [2]) compared to those by factual prescriptions and behavior cloning.</div>
 
-![goal_prompting](https://user-images.githubusercontent.com/119850923/215706750-0ebdd228-bd20-4af6-ae9e-f67625780f96.png)
+![goal_prompting](https://user-images.githubusercontent.com/119850923/216981876-8bc86829-c6f2-4a42-8a62-78f929a857a1.png)
 
 <br><br>
 
