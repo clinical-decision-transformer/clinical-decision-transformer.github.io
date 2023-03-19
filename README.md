@@ -39,7 +39,7 @@
 
 <span style="color: #2d6885"><font size="5"><b>Prescription Analysis</b></font></span>
 
-![prescription_analysis](https://user-images.githubusercontent.com/119850923/226156840-4f118901-9741-47ca-aa98-0f56456eefb5.png)
+![prescription_analysis](https://user-images.githubusercontent.com/119850923/226161074-ad4ed27b-647d-4d58-a638-1d141521f536.png)
 
 <br><br>
 
